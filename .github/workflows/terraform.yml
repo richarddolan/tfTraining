@@ -2,6 +2,7 @@ name: terraform
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 permissions:
   id-token: write   # lets the job request a GitHub OIDC token
   contents: read
